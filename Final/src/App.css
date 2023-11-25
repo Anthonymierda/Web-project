@@ -1,0 +1,56 @@
+*{
+  /* To include the element's padding and border to its total dimensions*/
+  /*Defines how the width and height of an element are calculated: should they include padding and borders, or not*/
+  box-sizing: border-box; 
+  /* The distance seperating the element from the windows border */
+  margin: 0;
+  /* The distance that seperates the elements inside of an element and its borders*/
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;   /* Responsive unit of measure */
+  align-items: center; /* Pack items around the center as a grouped element */
+  justify-content: center; /* aligns flex items in the center of the container */
+  font-size: 3rem; 
+}
+
+.services {
+  background-image: url("https://res.cloudinary.com/dbcw3h2dv/image/upload/v1666102671/images-edubroad/HungarianCards_dp5koz.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url("https://res.cloudinary.com/dbcw3h2dv/image/upload/v1666102671/images-edubroad/HungarianCards_dp5koz.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url("https://res.cloudinary.com/dbcw3h2dv/image/upload/v1666102671/images-edubroad/HungarianCards_dp5koz.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.input-alert{
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3545;
+  min-height: 1.5em;
+}

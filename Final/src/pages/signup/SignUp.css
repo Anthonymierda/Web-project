@@ -1,0 +1,11 @@
+.slider-wrapper {
+  padding-top: 70px;
+}
+
+.main {
+  box-shadow: 2px 5px 5px 5px rgb(198, 198, 198);
+  border-radius: 3%;
+  margin-top: 20px;
+  padding: 5px 10px 10px 10px;
+  width: 500px;
+}
